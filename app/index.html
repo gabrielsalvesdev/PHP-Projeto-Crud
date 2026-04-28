@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda de Contatos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">📋</span>
+        <span class="logo-text">Agenda</span>
+      </div>
+      <button class="btn btn-primary" id="btnNovoContato">
+        <span>+</span> Novo Contato
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="stat-card">
+        <span class="stat-number" id="totalContatos">0</span>
+        <span class="stat-label">Total</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="totalMasculino">0</span>
+        <span class="stat-label">Masculino</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="totalFeminino">0</span>
+        <span class="stat-label">Feminino</span>
+      </div>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-bar">
+      <input
+        type="text"
+        id="campoBusca"
+        class="search-input"
+        placeholder="🔍  Buscar por nome, email ou telefone..."
+      />
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-state" id="loadingState">
+      <div class="spinner"></div>
+      <p>Carregando contatos...</p>
+    </div>
+
+    <!-- EMPTY STATE -->
+    <div class="empty-state hidden" id="emptyState">
+      <div class="empty-icon">👤</div>
+      <h3>Nenhum contato encontrado</h3>
+      <p>Adicione seu primeiro contato clicando no botão acima.</p>
+    </div>
+
+    <!-- CARDS GRID -->
+    <div class="cards-grid" id="cardsGrid"></div>
+
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <h2 id="modalTitulo">Novo Contato</h2>
+        <button class="modal-close" id="btnFecharModal">&times;</button>
+      </div>
+      <form id="formContato" novalidate>
+        <input type="hidden" id="contatoId" />
+
+        <div class="form-grid">
+          <div class="form-group full">
+            <label for="inputNome">Nome completo</label>
+            <input type="text" id="inputNome" placeholder="Ex: João da Silva" />
+            <span class="field-error" id="erroNome"></span>
+          </div>
+
+          <div class="form-group full">
+            <label for="inputEndereco">Endereço</label>
+            <input type="text" id="inputEndereco" placeholder="Ex: Rua das Flores, 123 - SP" />
+            <span class="field-error" id="erroEndereco"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="inputTelefone">Telefone</label>
+            <input type="tel" id="inputTelefone" placeholder="Ex: (11) 99999-9999" />
+            <span class="field-error" id="erroTelefone"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" id="inputEmail" placeholder="Ex: joao@email.com" />
+            <span class="field-error" id="erroEmail"></span>
+          </div>
+
+          <div class="form-group full">
+            <label>Sexo</label>
+            <div class="radio-group">
+              <label class="radio-option" id="radioM">
+                <input type="radio" name="sexo" value="M" />
+                <span class="radio-label">♂ Masculino</span>
+              </label>
+              <label class="radio-option" id="radioF">
+                <input type="radio" name="sexo" value="F" />
+                <span class="radio-label">♀ Feminino</span>
+              </label>
+            </div>
+            <span class="field-error" id="erroSexo"></span>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost" id="btnCancelar">Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="btnSalvar">Salvar Contato</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast hidden" id="toast">
+    <span id="toastMensagem"></span>
+  </div>
+
+  <!-- CONFIRM MODAL -->
+  <div class="modal-overlay hidden" id="confirmOverlay">
+    <div class="modal modal-sm">
+      <div class="modal-header">
+        <h2>Confirmar exclusão</h2>
+      </div>
+      <p class="confirm-text">Tem certeza que deseja excluir este contato? Esta ação não pode ser desfeita.</p>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" id="btnCancelarExclusao">Cancelar</button>
+        <button class="btn btn-danger" id="btnConfirmarExclusao">Excluir</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
