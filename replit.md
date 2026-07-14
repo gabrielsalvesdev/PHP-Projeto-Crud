@@ -1,6 +1,7 @@
 # REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
 # REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
 # REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
 # CRUD PHP - Agenda de Contatos
 
 Aplicação CRUD de agenda de contatos com frontend moderno em JS puro e backend PHP + PostgreSQL.
