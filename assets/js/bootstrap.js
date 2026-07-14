@@ -1,3 +1,4 @@
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
 /*!
   * Bootstrap v4.1.3 (https://getbootstrap.com/)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)

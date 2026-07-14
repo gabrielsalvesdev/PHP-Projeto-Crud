@@ -1,0 +1,5984 @@
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e aplicar melhorias de código, incluindo boas práticas, segurança e performance
+# REFATORADO: Refatorar c������������������������������������������������������digo para: Analisar o projeto PHP CRUD e listar problemas encontrados
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "api_contatos",
+      "label": "contatos.php",
+      "file_type": "code",
+      "source_file": "api/contatos.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "api_contatos_validardados",
+      "label": "validarDados()",
+      "file_type": "code",
+      "source_file": "api/contatos.php",
+      "source_location": "L109",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app",
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_todoscontatos",
+      "label": "todosContatos",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_el",
+      "label": "el()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_grid",
+      "label": "$grid",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_loading",
+      "label": "$loading",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_empty",
+      "label": "$empty",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_busca",
+      "label": "$busca",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_modaloverlay",
+      "label": "$modalOverlay",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_confirmoverlay",
+      "label": "$confirmOverlay",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_formcontato",
+      "label": "$formContato",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_toast",
+      "label": "$toast",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_toastmsg",
+      "label": "$toastMsg",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_modaltitulo",
+      "label": "$modalTitulo",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_btnsalvar",
+      "label": "$btnSalvar",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_bindeventos",
+      "label": "bindEventos()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_carregarcontatos",
+      "label": "carregarContatos()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_salvarcontato",
+      "label": "salvarContato()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L71",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_confirmarexclusao",
+      "label": "confirmarExclusao()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L111",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_rendercontatos",
+      "label": "renderContatos()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L127",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_criarcard",
+      "label": "criarCard()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L143",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_filtrarcontatos",
+      "label": "filtrarContatos()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L176",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_atualizarstats",
+      "label": "atualizarStats()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L186",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_abrirmodalnovo",
+      "label": "abrirModalNovo()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L193",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_abrirmodaledicao",
+      "label": "abrirModalEdicao()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L204",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_abrirconfirmarexclusao",
+      "label": "abrirConfirmarExclusao()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L224",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_fecharmodal",
+      "label": "fecharModal()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L229",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_validarform",
+      "label": "validarForm()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L235",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_seterro",
+      "label": "setErro()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L258",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_limparerros",
+      "label": "limparErros()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L263",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_mostrartoast",
+      "label": "mostrarToast()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L275",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_toggleoverlay",
+      "label": "toggleOverlay()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L288",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_toggleloading",
+      "label": "toggleLoading()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L293",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_app_escapehtml",
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "app/app.js",
+      "source_location": "L301",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle",
+      "label": "bootstrap.bundle.js",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_defineproperties",
+      "label": "_defineProperties()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_createclass",
+      "label": "_createClass()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_defineproperty",
+      "label": "_defineProperty()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_objectspread",
+      "label": "_objectSpread()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_inheritsloose",
+      "label": "_inheritsLoose()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_totype",
+      "label": "toType()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L87",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getspecialtransitionendevent",
+      "label": "getSpecialTransitionEndEvent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L91",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_transitionendemulator",
+      "label": "transitionEndEmulator()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L105",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_settransitionendsupport",
+      "label": "setTransitionEndSupport()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L120",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_alert",
+      "label": "Alert()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L244",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L422",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_carousel",
+      "label": "Carousel()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L625",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_collapse",
+      "label": "Collapse()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1103",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_microtaskdebounce",
+      "label": "microtaskDebounce()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1448",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_taskdebounce",
+      "label": "taskDebounce()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1462",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_isfunction",
+      "label": "isFunction()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1495",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "label": "getStyleComputedProperty()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1507",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getparentnode",
+      "label": "getParentNode()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1523",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getscrollparent",
+      "label": "getScrollParent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1537",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_isie",
+      "label": "isIE()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1575",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getoffsetparent",
+      "label": "getOffsetParent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1592",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_isoffsetcontainer",
+      "label": "isOffsetContainer()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1621",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getroot",
+      "label": "getRoot()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1637",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "label": "findCommonOffsetParent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1653",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getscroll",
+      "label": "getScroll()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1697",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_includescroll",
+      "label": "includeScroll()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1721",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getborderssize",
+      "label": "getBordersSize()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1744",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getsize",
+      "label": "getSize()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1751",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getwindowsizes",
+      "label": "getWindowSizes()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1755",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getclientrect",
+      "label": "getClientRect()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1830",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "label": "getBoundingClientRect()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1844",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "label": "getOffsetRectRelativeToArbitraryNode()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1893",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "label": "getViewportOffsetRectRelativeToArtbitraryNode()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1945",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_isfixed",
+      "label": "isFixed()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1974",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "label": "getFixedPositionOffsetParent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1993",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getboundaries",
+      "label": "getBoundaries()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2016",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getarea",
+      "label": "getArea()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2068",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_computeautoplacement",
+      "label": "computeAutoPlacement()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2084",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "label": "getReferenceOffsets()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2145",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getoutersizes",
+      "label": "getOuterSizes()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2159",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getoppositeplacement",
+      "label": "getOppositePlacement()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2177",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "label": "getPopperOffsets()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2194",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_find",
+      "label": "find()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2232",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_findindex",
+      "label": "findIndex()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2251",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_runmodifiers",
+      "label": "runModifiers()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2276",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_update",
+      "label": "update()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2306",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_ismodifierenabled",
+      "label": "isModifierEnabled()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2358",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getsupportedpropertyname",
+      "label": "getSupportedPropertyName()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2373",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_destroy",
+      "label": "destroy()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2392",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getwindow",
+      "label": "getWindow()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2422",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_attachtoscrollparents",
+      "label": "attachToScrollParents()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2427",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "label": "setupEventListeners()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2444",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_enableeventlisteners",
+      "label": "enableEventListeners()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2464",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_removeeventlisteners",
+      "label": "removeEventListeners()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2476",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_disableeventlisteners",
+      "label": "disableEventListeners()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2500",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_isnumeric",
+      "label": "isNumeric()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2514",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_setstyles",
+      "label": "setStyles()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2526",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_setattributes",
+      "label": "setAttributes()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2545",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_applystyle",
+      "label": "applyStyle()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2565",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_applystyleonload",
+      "label": "applyStyleOnLoad()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2594",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_computestyle",
+      "label": "computeStyle()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2619",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_ismodifierrequired",
+      "label": "isModifierRequired()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2718",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_arrow",
+      "label": "arrow()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2743",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_getoppositevariation",
+      "label": "getOppositeVariation()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2825",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_clockwise",
+      "label": "clockwise()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2880",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_flip",
+      "label": "flip()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2901",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_keeptogether",
+      "label": "keepTogether()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2991",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_tovalue",
+      "label": "toValue()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3025",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_parseoffset",
+      "label": "parseOffset()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3077",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_offset",
+      "label": "offset()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3153",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_preventoverflow",
+      "label": "preventOverflow()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3194",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_shift",
+      "label": "shift()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3265",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_hide",
+      "label": "hide()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3298",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_inner",
+      "label": "inner()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3336",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_popper",
+      "label": "Popper()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3787",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_popper_scheduleupdate",
+      "label": ".scheduleUpdate()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3793",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_dropdown",
+      "label": "Dropdown()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L4024",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_modal",
+      "label": "Modal()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L4489",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_tooltip",
+      "label": "Tooltip()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5086",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_popover",
+      "label": "Popover()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5724",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_scrollspy",
+      "label": "ScrollSpy()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5921",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_tab",
+      "label": "Tab()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L6225",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_177",
+      "label": "TODO: Remove in v5",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L177",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_1511",
+      "label": "NOTE: 1 DOM access here",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1511",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_1599",
+      "label": "NOTE: 1 DOM access here",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1599",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_2019",
+      "label": "NOTE: 1 DOM access here",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2019",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_3204",
+      "label": "NOTE: DOM access here",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3204",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_rationale_3219",
+      "label": "NOTE: DOM access here",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3219",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min",
+      "label": "bootstrap.bundle.min.js",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_i",
+      "label": "i()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_s",
+      "label": "s()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_l",
+      "label": "l()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_e",
+      "label": "e()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_n",
+      "label": "n()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_o",
+      "label": "o()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_a",
+      "label": "a()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_xe",
+      "label": "xe()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_pe",
+      "label": "Pe()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_le",
+      "label": "Le()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_je",
+      "label": "je()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_fe",
+      "label": "Fe()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_we",
+      "label": "We()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_re",
+      "label": "Re()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ue",
+      "label": "Ue()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_be",
+      "label": "Be()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_qe",
+      "label": "qe()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ke",
+      "label": "Ke()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ge",
+      "label": "Ge()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ze",
+      "label": "Ze()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_et",
+      "label": "et()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_tt",
+      "label": "tt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_nt",
+      "label": "nt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_it",
+      "label": "it()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_rt",
+      "label": "rt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ot",
+      "label": "ot()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_st",
+      "label": "st()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_at",
+      "label": "at()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_lt",
+      "label": "lt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ct",
+      "label": "ct()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ut",
+      "label": "ut()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ft",
+      "label": "ft()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_ht",
+      "label": "ht()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_dt",
+      "label": "dt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_pt",
+      "label": "pt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_t",
+      "label": "_t()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_bt",
+      "label": "bt()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_c",
+      "label": "c()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_bundle_min_r",
+      "label": "r()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap",
+      "label": "bootstrap.js",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_defineproperties",
+      "label": "_defineProperties()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_createclass",
+      "label": "_createClass()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_defineproperty",
+      "label": "_defineProperty()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_objectspread",
+      "label": "_objectSpread()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_inheritsloose",
+      "label": "_inheritsLoose()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_totype",
+      "label": "toType()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L88",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_getspecialtransitionendevent",
+      "label": "getSpecialTransitionEndEvent()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_transitionendemulator",
+      "label": "transitionEndEmulator()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L106",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_settransitionendsupport",
+      "label": "setTransitionEndSupport()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L121",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_alert",
+      "label": "Alert()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L245",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L423",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_carousel",
+      "label": "Carousel()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L626",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_collapse",
+      "label": "Collapse()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1104",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_dropdown",
+      "label": "Dropdown()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1507",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_modal",
+      "label": "Modal()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1972",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_tooltip",
+      "label": "Tooltip()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L2569",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_popover",
+      "label": "Popover()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3207",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_scrollspy",
+      "label": "ScrollSpy()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3404",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_tab",
+      "label": "Tab()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3708",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_rationale_178",
+      "label": "TODO: Remove in v5",
+      "file_type": "rationale",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L178",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min",
+      "label": "bootstrap.min.js",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_i",
+      "label": "i()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_s",
+      "label": "s()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_l",
+      "label": "l()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_t",
+      "label": "t()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_n",
+      "label": "n()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_o",
+      "label": "o()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_a",
+      "label": "a()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_c",
+      "label": "c()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "assets_js_bootstrap_min_r",
+      "label": "r()",
+      "file_type": "code",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "banco",
+      "label": "banco.php",
+      "file_type": "code",
+      "source_file": "banco.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "banco_banco",
+      "label": "Banco",
+      "file_type": "code",
+      "source_file": "banco.php",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "banco_banco_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "banco.php",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "banco_banco_conectar",
+      "label": ".conectar()",
+      "file_type": "code",
+      "source_file": "banco.php",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "banco_banco_desconectar",
+      "label": ".desconectar()",
+      "file_type": "code",
+      "source_file": "banco.php",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "create",
+      "label": "create.php",
+      "file_type": "code",
+      "source_file": "create.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "delete",
+      "label": "delete.php",
+      "file_type": "code",
+      "source_file": "delete.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php",
+      "label": "erros_php.php",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_exemplovariavelindefinida",
+      "label": "exemploVariavelIndefinida()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_somar",
+      "label": "somar()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_buscarcontato",
+      "label": "buscarContato()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_verificaradmin",
+      "label": "verificarAdmin()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_buscarpornomeinseguro",
+      "label": "buscarPorNomeInseguro()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "pdo",
+      "label": "PDO",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_calcularmedia",
+      "label": "calcularMedia()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_obteremail",
+      "label": "obterEmail()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_processaritens",
+      "label": "processarItens()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_calcular",
+      "label": "calcular()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_lerarquivo",
+      "label": "lerArquivo()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L99",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_usarconstante",
+      "label": "usarConstante()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L107",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_formatarnome",
+      "label": "formatarNome()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_pessoa",
+      "label": "Pessoa",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L122",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_pessoa_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L124",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_processarpost",
+      "label": "processarPost()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L135",
+      "_origin": "ast"
+    },
+    {
+      "id": "erros_examples_erros_php_fatorial",
+      "label": "fatorial()",
+      "file_type": "code",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L145",
+      "_origin": "ast"
+    },
+    {
+      "id": "index",
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "read",
+      "label": "read.php",
+      "file_type": "code",
+      "source_file": "read.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "router",
+      "label": "router.php",
+      "file_type": "code",
+      "source_file": "router.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "update",
+      "label": "update.php",
+      "file_type": "code",
+      "source_file": "update.php",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_projeto_crud_em_php_mysql",
+      "label": "Projeto CRUD em PHP & MySQL",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_assuntos_abordados_no_desenvolvimento_do_projeto",
+      "label": "Assuntos Abordados no Desenvolvimento do Projeto:",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_configuração_do_projeto",
+      "label": "Configuração do Projeto:",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit",
+      "label": "replit.md",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_crud_php_agenda_de_contatos",
+      "label": "CRUD PHP - Agenda de Contatos",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_arquitetura",
+      "label": "Arquitetura",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_estrutura_de_arquivos",
+      "label": "Estrutura de Arquivos",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_funcionalidades_do_frontend",
+      "label": "Funcionalidades do Frontend",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_api_rest",
+      "label": "API REST",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_repositório_de_erros_análise_estática",
+      "label": "Repositório de Erros (Análise Estática)",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_database",
+      "label": "Database",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "replit_executando",
+      "label": "Executando",
+      "file_type": "document",
+      "source_file": "replit.md",
+      "source_location": "L81",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "api_contatos",
+      "target": "api_contatos_validardados",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contatos.php",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_todoscontatos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_el",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_grid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_loading",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_empty",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_busca",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_modaloverlay",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_confirmoverlay",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_formcontato",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_toast",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_toastmsg",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_modaltitulo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_btnsalvar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_bindeventos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_carregarcontatos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_salvarcontato",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_confirmarexclusao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_rendercontatos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_criarcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_filtrarcontatos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_atualizarstats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_abrirmodalnovo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_abrirmodaledicao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_abrirconfirmarexclusao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_fecharmodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_validarform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_seterro",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_limparerros",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_mostrartoast",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_toggleoverlay",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L288",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_toggleloading",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app",
+      "target": "app_app_escapehtml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L301",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_abrirmodalnovo",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "app/app.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_fecharmodal",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "app/app.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_confirmarexclusao",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "app/app.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_salvarcontato",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "app/app.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_rendercontatos",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_filtrarcontatos",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_bindeventos",
+      "target": "app_app_fecharmodal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_carregarcontatos",
+      "target": "app_app_toggleloading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_carregarcontatos",
+      "target": "app_app_rendercontatos",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_carregarcontatos",
+      "target": "app_app_atualizarstats",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_carregarcontatos",
+      "target": "app_app_mostrartoast",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_salvarcontato",
+      "target": "app_app_validarform",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_salvarcontato",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_salvarcontato",
+      "target": "app_app_mostrartoast",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_salvarcontato",
+      "target": "app_app_fecharmodal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_salvarcontato",
+      "target": "app_app_carregarcontatos",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_confirmarexclusao",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_confirmarexclusao",
+      "target": "app_app_mostrartoast",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_confirmarexclusao",
+      "target": "app_app_carregarcontatos",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_rendercontatos",
+      "target": "app_app_toggleloading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_rendercontatos",
+      "target": "app_app_criarcard",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_criarcard",
+      "target": "app_app_escapehtml",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_criarcard",
+      "target": "app_app_abrirmodaledicao",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_criarcard",
+      "target": "app_app_abrirconfirmarexclusao",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_atualizarstats",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodalnovo",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodalnovo",
+      "target": "app_app_limparerros",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodalnovo",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodaledicao",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodaledicao",
+      "target": "app_app_limparerros",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirmodaledicao",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_abrirconfirmarexclusao",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_fecharmodal",
+      "target": "app_app_toggleoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_fecharmodal",
+      "target": "app_app_limparerros",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_validarform",
+      "target": "app_app_limparerros",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_validarform",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_validarform",
+      "target": "app_app_seterro",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_seterro",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "app_app_limparerros",
+      "target": "app_app_el",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/app.js",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_defineproperties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_createclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_defineproperty",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_objectspread",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_inheritsloose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_totype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getspecialtransitionendevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_transitionendemulator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_settransitionendsupport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L422",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_carousel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L625",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_collapse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1103",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_microtaskdebounce",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1448",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_taskdebounce",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1462",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_isfunction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1495",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1507",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getparentnode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1523",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getscrollparent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1537",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1575",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getoffsetparent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1592",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_isoffsetcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1621",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getroot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1637",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1653",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getscroll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1697",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_includescroll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1721",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getborderssize",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1744",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getsize",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1751",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getwindowsizes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1755",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1830",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1844",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1893",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1945",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_isfixed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1974",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1993",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getboundaries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2016",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getarea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2068",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_computeautoplacement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2084",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2145",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getoutersizes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2159",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getoppositeplacement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2177",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2194",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2232",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_findindex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2251",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_runmodifiers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2276",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_update",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2306",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_ismodifierenabled",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2358",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getsupportedpropertyname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2373",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_destroy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2392",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getwindow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2422",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_attachtoscrollparents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2427",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2444",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_enableeventlisteners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2464",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_removeeventlisteners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2476",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_disableeventlisteners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2500",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_isnumeric",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2514",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_setstyles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2526",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_setattributes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2545",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_applystyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2565",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_applystyleonload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2594",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_computestyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2619",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_ismodifierrequired",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2718",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_arrow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2743",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_getoppositevariation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2825",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_clockwise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2880",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_flip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2901",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_keeptogether",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2991",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_tovalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3025",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_parseoffset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3077",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_offset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3153",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_preventoverflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3194",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_shift",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3265",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_hide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3298",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_inner",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3336",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_popper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3787",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_popper",
+      "target": "assets_js_bootstrap_bundle_popper_scheduleupdate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3793",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_dropdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L4024",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_modal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L4489",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_tooltip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5086",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_popover",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5724",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_scrollspy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L5921",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle",
+      "target": "assets_js_bootstrap_bundle_tab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L6225",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_createclass",
+      "target": "assets_js_bootstrap_bundle_defineproperties",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_objectspread",
+      "target": "assets_js_bootstrap_bundle_defineproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_settransitionendsupport",
+      "target": "assets_js_bootstrap_bundle_getspecialtransitionendevent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getscrollparent",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1553",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getscrollparent",
+      "target": "assets_js_bootstrap_bundle_getparentnode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1562",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetparent",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1597",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetparent",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1614",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_isoffsetcontainer",
+      "target": "assets_js_bootstrap_bundle_getoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1627",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "target": "assets_js_bootstrap_bundle_isoffsetcontainer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1673",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "target": "assets_js_bootstrap_bundle_getoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1677",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "target": "assets_js_bootstrap_bundle_getroot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1681",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_includescroll",
+      "target": "assets_js_bootstrap_bundle_getscroll",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1724",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getsize",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1752",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getwindowsizes",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1758",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getwindowsizes",
+      "target": "assets_js_bootstrap_bundle_getsize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1761",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1851",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_getscroll",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1853",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_getwindowsizes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1872",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1882",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_getborderssize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1883",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1890",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1896",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1898",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getscrollparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1900",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1902",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1911",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "target": "assets_js_bootstrap_bundle_includescroll",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1939",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1949",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getscroll",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1953",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1963",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_isfixed",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1979",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_isfixed",
+      "target": "assets_js_bootstrap_bundle_getparentnode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1982",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "target": "assets_js_bootstrap_bundle_isie",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1995",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1999",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2022",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2022",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getviewportoffsetrectrelativetoartbitrarynode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2026",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getscrollparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2031",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getparentnode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2031",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2041",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_isfixed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2044",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getboundaries",
+      "target": "assets_js_bootstrap_bundle_getwindowsizes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2045",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computeautoplacement",
+      "target": "assets_js_bootstrap_bundle_getboundaries",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2091",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computeautoplacement",
+      "target": "assets_js_bootstrap_bundle_getarea",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2116",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "target": "assets_js_bootstrap_bundle_getfixedpositionoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2148",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "target": "assets_js_bootstrap_bundle_findcommonoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2148",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "target": "assets_js_bootstrap_bundle_getoffsetrectrelativetoarbitrarynode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2149",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "target": "assets_js_bootstrap_bundle_getoutersizes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2198",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "target": "assets_js_bootstrap_bundle_getoppositeplacement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2217",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_findindex",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2260",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_runmodifiers",
+      "target": "assets_js_bootstrap_bundle_findindex",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2277",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_runmodifiers",
+      "target": "assets_js_bootstrap_bundle_isfunction",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2285",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_runmodifiers",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2289",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_update",
+      "target": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2322",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_update",
+      "target": "assets_js_bootstrap_bundle_computeautoplacement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2327",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_update",
+      "target": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2335",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_update",
+      "target": "assets_js_bootstrap_bundle_runmodifiers",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2340",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_destroy",
+      "target": "assets_js_bootstrap_bundle_ismodifierenabled",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2396",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_destroy",
+      "target": "assets_js_bootstrap_bundle_getsupportedpropertyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2404",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_destroy",
+      "target": "assets_js_bootstrap_bundle_disableeventlisteners",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2407",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_attachtoscrollparents",
+      "target": "assets_js_bootstrap_bundle_getscrollparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2433",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "target": "assets_js_bootstrap_bundle_getwindow",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2447",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "target": "assets_js_bootstrap_bundle_getscrollparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2450",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "target": "assets_js_bootstrap_bundle_attachtoscrollparents",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2451",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_enableeventlisteners",
+      "target": "assets_js_bootstrap_bundle_setupeventlisteners",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2466",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_removeeventlisteners",
+      "target": "assets_js_bootstrap_bundle_getwindow",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2478",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_disableeventlisteners",
+      "target": "assets_js_bootstrap_bundle_removeeventlisteners",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2503",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_setstyles",
+      "target": "assets_js_bootstrap_bundle_isnumeric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2530",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_applystyle",
+      "target": "assets_js_bootstrap_bundle_setstyles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2570",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_applystyle",
+      "target": "assets_js_bootstrap_bundle_setattributes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2574",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_applystyleonload",
+      "target": "assets_js_bootstrap_bundle_getreferenceoffsets",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2596",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_applystyleonload",
+      "target": "assets_js_bootstrap_bundle_computeautoplacement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2601",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_applystyleonload",
+      "target": "assets_js_bootstrap_bundle_setstyles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2607",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computestyle",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2626",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computestyle",
+      "target": "assets_js_bootstrap_bundle_getoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2634",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computestyle",
+      "target": "assets_js_bootstrap_bundle_getboundingclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2635",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_computestyle",
+      "target": "assets_js_bootstrap_bundle_getsupportedpropertyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2658",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_ismodifierrequired",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2719",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_arrow",
+      "target": "assets_js_bootstrap_bundle_ismodifierrequired",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2747",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_arrow",
+      "target": "assets_js_bootstrap_bundle_getoutersizes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2782",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_arrow",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2797",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_arrow",
+      "target": "assets_js_bootstrap_bundle_getstylecomputedproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2804",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_ismodifierenabled",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2903",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_getboundaries",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2912",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_getoppositeplacement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2915",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_clockwise",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2925",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_getoppositevariation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2969",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_getpopperoffsets",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2976",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_flip",
+      "target": "assets_js_bootstrap_bundle_runmodifiers",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2978",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_tovalue",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3048",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_parseoffset",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3093",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_parseoffset",
+      "target": "assets_js_bootstrap_bundle_tovalue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3129",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_parseoffset",
+      "target": "assets_js_bootstrap_bundle_isnumeric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3136",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_offset",
+      "target": "assets_js_bootstrap_bundle_isnumeric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3163",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_offset",
+      "target": "assets_js_bootstrap_bundle_parseoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3166",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_preventoverflow",
+      "target": "assets_js_bootstrap_bundle_getoffsetparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3195",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_preventoverflow",
+      "target": "assets_js_bootstrap_bundle_getsupportedpropertyname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3207",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_preventoverflow",
+      "target": "assets_js_bootstrap_bundle_getboundaries",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3217",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_hide",
+      "target": "assets_js_bootstrap_bundle_ismodifierrequired",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3299",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_hide",
+      "target": "assets_js_bootstrap_bundle_find",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3304",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_inner",
+      "target": "assets_js_bootstrap_bundle_getoppositeplacement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3349",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_inner",
+      "target": "assets_js_bootstrap_bundle_getclientrect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3350",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_popper",
+      "target": "assets_js_bootstrap_bundle_isfunction",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3836",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_popper",
+      "target": "assets_js_bootstrap_bundle_update",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3842",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_popper",
+      "target": "assets_js_bootstrap_bundle_enableeventlisteners",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3847",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_177",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_1511",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1511",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_1599",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L1599",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_2019",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L2019",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_3204",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3204",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_rationale_3219",
+      "target": "assets_js_bootstrap_bundle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.js",
+      "source_location": "L3219",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_i",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_l",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_n",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_o",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_xe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_le",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_je",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_we",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_re",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_qe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ke",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ze",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_et",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_tt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_nt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_it",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_rt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_st",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_at",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_lt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ct",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ut",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ft",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_ht",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_dt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_pt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_bt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min",
+      "target": "assets_js_bootstrap_bundle_min_r",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_s",
+      "target": "assets_js_bootstrap_bundle_min_i",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_l",
+      "target": "assets_js_bootstrap_bundle_min_n",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_l",
+      "target": "assets_js_bootstrap_bundle_min_i",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_i",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_le",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_we",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_we",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ue",
+      "target": "assets_js_bootstrap_bundle_min_we",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ue",
+      "target": "assets_js_bootstrap_bundle_min_re",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ke",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_qe",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_qe",
+      "target": "assets_js_bootstrap_bundle_min_ke",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_be",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_qe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_je",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ze",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ze",
+      "target": "assets_js_bootstrap_bundle_min_je",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ze",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ze",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ze",
+      "target": "assets_js_bootstrap_bundle_min_be",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_xe",
+      "target": "assets_js_bootstrap_bundle_min_fe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_xe",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_ue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_ze",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_be",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_je",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_le",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_e",
+      "target": "assets_js_bootstrap_bundle_min_pe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_tt",
+      "target": "assets_js_bootstrap_bundle_min_ze",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_tt",
+      "target": "assets_js_bootstrap_bundle_min_ue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_rt",
+      "target": "assets_js_bootstrap_bundle_min_nt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_rt",
+      "target": "assets_js_bootstrap_bundle_min_it",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_st",
+      "target": "assets_js_bootstrap_bundle_min_ot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_st",
+      "target": "assets_js_bootstrap_bundle_min_i",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_st",
+      "target": "assets_js_bootstrap_bundle_min_xe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_st",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ut",
+      "target": "assets_js_bootstrap_bundle_min_ct",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ut",
+      "target": "assets_js_bootstrap_bundle_min_je",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ut",
+      "target": "assets_js_bootstrap_bundle_min_e",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ut",
+      "target": "assets_js_bootstrap_bundle_min_s",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_ft",
+      "target": "assets_js_bootstrap_bundle_min_ct",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_dt",
+      "target": "assets_js_bootstrap_bundle_min_e",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_dt",
+      "target": "assets_js_bootstrap_bundle_min_ht",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_pt",
+      "target": "assets_js_bootstrap_bundle_min_ot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_bt",
+      "target": "assets_js_bootstrap_bundle_min_ot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_bt",
+      "target": "assets_js_bootstrap_bundle_min_ge",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_bt",
+      "target": "assets_js_bootstrap_bundle_min_ht",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_o",
+      "target": "assets_js_bootstrap_bundle_min_xe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_defineproperties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_createclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_defineproperty",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_objectspread",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_inheritsloose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_totype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_getspecialtransitionendevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_transitionendemulator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_settransitionendsupport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_carousel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L626",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_collapse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1104",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_dropdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1507",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_modal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L1972",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_tooltip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L2569",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_popover",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3207",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_scrollspy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3404",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap",
+      "target": "assets_js_bootstrap_tab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L3708",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_createclass",
+      "target": "assets_js_bootstrap_defineproperties",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_objectspread",
+      "target": "assets_js_bootstrap_defineproperty",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_settransitionendsupport",
+      "target": "assets_js_bootstrap_getspecialtransitionendevent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_rationale_178",
+      "target": "assets_js_bootstrap",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.js",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_i",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_l",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_n",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_o",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min",
+      "target": "assets_js_bootstrap_min_r",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_s",
+      "target": "assets_js_bootstrap_min_i",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_l",
+      "target": "assets_js_bootstrap_min_n",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_l",
+      "target": "assets_js_bootstrap_min_i",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_t",
+      "target": "assets_js_bootstrap_min_i",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "banco",
+      "target": "banco_banco",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "banco.php",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "banco_banco",
+      "target": "banco_banco_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "banco.php",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "banco_banco",
+      "target": "banco_banco_conectar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "banco.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "banco_banco",
+      "target": "banco_banco_desconectar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "banco.php",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_exemplovariavelindefinida",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_somar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_buscarcontato",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_verificaradmin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_buscarpornomeinseguro",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php_buscarpornomeinseguro",
+      "target": "pdo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_calcularmedia",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_obteremail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_processaritens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_calcular",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_lerarquivo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_usarconstante",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_formatarnome",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_pessoa",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php_pessoa",
+      "target": "erros_examples_erros_php_pessoa_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_processarpost",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "erros_examples_erros_php",
+      "target": "erros_examples_erros_php_fatorial",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "erros_examples/erros_php.php",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_projeto_crud_em_php_mysql",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_projeto_crud_em_php_mysql",
+      "target": "readme_assuntos_abordados_no_desenvolvimento_do_projeto",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_projeto_crud_em_php_mysql",
+      "target": "readme_configuração_do_projeto",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "replit",
+      "target": "replit_crud_php_agenda_de_contatos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_arquitetura",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_estrutura_de_arquivos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_funcionalidades_do_frontend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_api_rest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_repositório_de_erros_análise_estática",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "replit_crud_php_agenda_de_contatos",
+      "target": "replit_executando",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "replit.md",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_bundle_min_i",
+      "target": "assets_js_bootstrap_min_t",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/js/bootstrap.bundle.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_o",
+      "target": "assets_js_bootstrap_bundle_min_nt",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_bootstrap_min_i",
+      "target": "assets_js_bootstrap_bundle_min_e",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/js/bootstrap.min.js",
+      "source_location": "L6",
+      "weight": 1.0
+    }
+  ]
+}
